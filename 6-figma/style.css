@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #231414;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.scene {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color: #87cefa;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.character {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.head {
+    width: 70px;
+    height: 70px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.body {
+    width: 80px;
+    height: 120px;
+    background-color: #725296;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    left: 10px;
+}
+
+
+.left-arm, .right-arm {
+    width: 20px;
+    height: 50px;
+    background-color: #ff6600;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+}
+
+.left-arm {
+    left: -30px;
+    transform-origin: top left;
+}
+
+.right-arm {
+    right: -30px;
+    transform-origin: top right;
+}
+
+
+.legs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.left-leg, .right-leg {
+    width: 25px;
+    height: 60px;
+    background-color: #ff6699;
+    border-radius: 10px;
+}
+
+
+@keyframes walk {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-10px) rotate(20deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-10px) rotate(-20deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+
+@keyframes arm-swing {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.character {
+    animation: walk-cycle 1s ease-in-out infinite;
+}
+
+
+@keyframes walk-cycle {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+
+.left-arm, .right-arm {
+    animation: arm-swing 0.5s ease-in-out infinite;
+}
+
+.left-leg, .right-leg {
+    animation: walk 0.5s infinite alternate;
+}

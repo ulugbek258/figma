@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e6b209e8;
+    font-family: Arial, sans-serif;
+  }
+  
+  #manga-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .manga-page {
+    display: none;
+    width: 80vw;
+    height: 90vh;
+    position: absolute;
+    /* top: 200px; */
+    transform: translateY(-50%);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .manga-page img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .manga-page.active {
+    display: block;
+    transform: translateX(0);
+  }
+  
+  .manga-page.prev {
+    transform: translateX(-100%);
+  }
+  
+  .manga-page.next {
+    transform: translateX(100%);
+  }
+  
+  .controls {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button {
+    background-color: #444;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 15px;
+  }
+  
+  button:hover {
+    background-color: #ca0f0f;
+    transition: transform 1s ease-in-out;
+  }
+  

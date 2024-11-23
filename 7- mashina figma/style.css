@@ -1,0 +1,127 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .car-container {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: #2f2f2f;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* Car Body */
+  .car-body {
+    width: 80%;
+    height: 60%;
+    background-color: #333;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Windows */
+  .car-window {
+    position: absolute;
+    top: 15%;
+    width: 30%;
+    height: 35%;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .front-window {
+    left: 10%;
+  }
+  
+  .back-window {
+    right: 10%;
+  }
+  
+  /* Car Wheels */
+  .car-wheel {
+    position: absolute;
+    bottom: -30px;
+    width: 70px;
+    height: 70px;
+    background-color: #444;
+    border-radius: 50%;
+    border: 8px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .front-wheel {
+    left: 20px;
+  }
+  
+  .back-wheel {
+    right: 20px;
+  }
+  
+  /* Tire */
+  .tire {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Headlights */
+  .headlights {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+  .headlight {
+    width: 30px;
+    height: 30px;
+    background-color: #f7b600;
+    border-radius: 50%;
+  }
+  
+  .headlight.left {
+    background-color: #f7b600;
+  }
+  
+  .headlight.right {
+    background-color: #f7b600;
+  }
+  
+  /* Grill */
+  .grill {
+    position: absolute;
+    bottom: 10px;
+    width: 60%;
+    height: 20px;
+    background-color: #222;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  

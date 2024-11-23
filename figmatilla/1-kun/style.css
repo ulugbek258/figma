@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ota_div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./png.png);
+    color: white;
+    justify-content: center;
+    gap: 30px;
+}
+.navbar h1{
+    font-size: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.qqq{
+    margin-top:  400px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.eee {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.519);
+    left: 300px;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    margin-left: 700px;
+    margin-top: 30px;
+    border: solid 1px;
+}
+
+
+.rrr{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.ttt{
+    padding-top: 10px;
+}
+
+
+.uuu{
+    text-align: center;
+}
+
+
+.iii{
+    /* background-color: rgba(0, 0, 0, 0.892); */
+    text-align: center;
+    color: rgb(10, 10, 10);
+    border: solid 2px;
+    width: 100px;
+    height: 30px;
+}
+
+
+.ulu{
+    width: 100px;
+    height: 30px;
+    border: solid 2px;
+}
+
+
+.ol{
+    width: 100px;
+    height: 30px;
+    border: solid 2px;
+}
+
+
+.jini{
+    width: 100px;
+    height: 30px;
+    border: solid 2px;
+}
+
+
+.jinni{
+    width: 100px;
+    height: 30px;
+    border: solid 2px;
+}
+
+
+.kol{
+    width: 100px;
+    height: 30px;
+    border: solid 2px;
+}
+
+
+.vbvb{
+    font-size: 30px;
+}
+
+
+.yyy :hover{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    /* margin-top: 50px; */
+    /* height: 150px; */
+}
+
+
+
+.ooo{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.img1{
+    border: solid 3px;
+}
+
+
+.l2{
+    width: 340px;
+}
+
+
+.ppp{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+
+.aaa{
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    text-align: center;
+    height: 300px;
+    border: 1px;
+    margin-top: 100px;
+    padding-top: 70px;
+    border: solid 2px;
+    
+}
+
+
+.sss{
+    width: 500px;
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+
+.ddd{
+    top: 100px;
+    font-size: 20px;
+}
+
+
+.mnb{
+    padding-top: 5px;
+}
+
+
+.fff{
+   background-color: white;
+   color: black;
+   border: solid 2px; 
+   margin-top: 25px;
+   width: 150px;
+   height: 30px;
+   text-align: center;
+}
+
+
+.ggg{
+    margin-top: 100px;
+}
+
+
+.hhh{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.jjj{
+    text-align: center;
+}
+
+
+.kkk{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+
+.qw{
+    border: solid 2px;
+}
+
+
+.wee{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.sdd{
+    color: white;
+    background-color: black;
+    width: 130px;
+    height: 30px;
+}
+
+
+.zzz{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.xxx{
+    text-align: center;
+}
+
+
+
+.lll{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.bbb{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    height: 400px;
+}
+
+
+.nnn{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+
+.column{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.colum{
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+
+.wqer{
+    padding-left: 800px;
+    padding-top: 0;
+    padding-right: 100px;
+    text-align: center;
+}
+
+
+
+.ewqe{
+    background-color: wheat;
+    font-size: 100px;
+    justify-content: center;
+}
+
+
+
+.oop{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+
+.poo{
+    font-size: 25px;
+}
+
+
+.oopk{
+    font-size: 25px;
+}
+
+
+.nmmn{
+    font-size: 25px;
+}
+
+
+.vvs{
+    display: flex;
+}
+
+
+.kom{
+    width: 300px;
+    font-size: 25px
+}
+
+
+.hojakbar{
+    font-size: 50px;
+}
+
+
+.ulug{
+    font-size: 50px;
+}
+
+
+.dd{
+    font-size: 25px;
+}
+
+
+.d{
+    font-size: 25px;
+}
+
+
+.d1{
+    font-size: 25px;
+}
+
+
+.dd1{
+    font-size: 25px;
+}
+
+
+.l2{
+    font-size: 25px;
+}
+
+
+.xx{
+    font-size: 25px;
+}
+
+
+.c4{
+    font-size: 25px;
+}
+
+
+.h5{
+    font-size: 25px;
+}
+
+
+.k8{
+    font-size: 25px;
+}
+
+
+.bbx{
+    display: flex;
+}
+
+
+
+.h4{
+    text-align: center;
+}
+
+
+.xcvb{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+
+.ggff{
+    color: black;
+}
+
